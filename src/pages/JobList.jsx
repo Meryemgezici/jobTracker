@@ -4,6 +4,7 @@ import axios from "axios"
 import Loading from "../components/Loading";
 import { useDispatch, useSelector } from "react-redux";
 import { setError, setJobs } from "../redux/jobSlice";
+import Filter from "../components/Filter";
 
 const JobList = () => {
     const dispatch=useDispatch();
@@ -18,8 +19,8 @@ const JobList = () => {
   
 
   return (
-    <div className="">
-      <div></div>
+    <div >
+      <Filter/>
 
       <h1 className="job-count">Bulun (10) iş arasından (10) tanesini görüntülüyorsunuz.</h1>
 

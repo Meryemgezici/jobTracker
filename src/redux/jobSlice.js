@@ -19,11 +19,14 @@ const jobSlice=createSlice({
         setError:(state)=>{
             state.error=true;
             state.initialed=true;
+        },
+        addJob:(state,action)=>{
+            state.jobs.push(action.payload);
         }
     }
 });
 
 
-export const {setJobs,setError} =jobSlice.actions;
+export const {setJobs,setError, addJob} =jobSlice.actions;
 
 export default jobSlice.reducer;

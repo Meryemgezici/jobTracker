@@ -21,7 +21,7 @@ const Card = ({job}) => {
     return (
         <div className="card">
             <div className="head">
-                <div className="letter">U</div>
+                <div className="letter">{job.company[0]}</div>
                 <div className="info">
                     <p>{job.position}</p>
                     <p>{job.company}</p>
