@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242424;
+    color: white;
+    font-family: "poppins";
+    font-weight: 400;
+    min-height: 100vh;
+
+}
+
+header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+        font-size: large;
+        font-weight: bold;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(190, 38, 157);
+    }
+
+    .active{
+        text-shadow: 0 0 20px pink;
+    }
+}
+
+.job-count{
+    margin-top: 400px;
+    margin-left: 50px;
+}
+.list-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 50px;
+    padding: 50px;
+}
+
+.card{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+
+    .head{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        .letter{
+            background-color: purple;
+            width: 50px;
+            height: 50px;
+            display: grid;
+            place-items: center;
+            border-radius: 5px;
+        }
+
+        .info{
+            font-size: 20px;
+        }
+    }
+
+    .body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-top: 40px;
+
+        .field{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size:20px;
+            .icon{
+                font-size: 30px;
+                color: black;
+            }
+
+          
+        }
+
+        .status{
+            // background-color: rgb(224, 224, 84);
+            padding: 5px;
+            // width: 50%;
+            border-radius: 5px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+        .redColor{
+            background-color: red;
+        }
+        .greenColor{
+            background-color: green;
+        }
+        .blueColor{
+            background-color: blue;
+        }
+        
+        .yellowColor{
+            background-color: rgb(224, 224, 84);
+        }
+    }
+
+}
+
+.add-card{
+    margin: 300px auto;
+    box-shadow: 0 22px 70px 5px purple;
+    padding: 25px;
+    max-width:75%;
+
+    form{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        gap: 30px;
+
+        div{
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+        div input,div select{
+          
+            padding: 10px 15px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+
+       div:last-child{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        
+       }
+       
+       button{
+       padding: 10px;
+        background: black;
+        color: white;
+        border-radius: 10px;
+        height: 40px;
+        width: 100px;
+        transition:all 0.3s;
+        cursor: pointer;
+        
+
+        &:hover{
+            box-shadow: 0 0px 6px purple;
+            scale: 0.96;
+        }
+       }
+       
+        
+    }
+    
+}
+
