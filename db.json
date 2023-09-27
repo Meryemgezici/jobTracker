@@ -198,6 +198,46 @@
       "status": "Mülakat",
       "type": "Yarı Zamanlı",
       "id": "776324e8-7a6c-438b-b6d8-f78c1cf3b858"
+    },
+    {
+      "position": "dasd",
+      "company": "casc",
+      "location": "dsad",
+      "status": "Devam Ediyor",
+      "type": "Yarı Zamanlı",
+      "id": "2829d7c1-f8d6-4ea1-b20b-ff0eed4dc81d"
+    },
+    {
+      "position": "dasdsa",
+      "company": "sadasd",
+      "location": "dasdas",
+      "status": "Devam Ediyor",
+      "type": "Yarı Zamanlı",
+      "id": "405b474c-39a6-4a20-99a9-807d5b77bb36"
+    },
+    {
+      "position": "dasd",
+      "company": "dasdsa",
+      "location": "asd",
+      "status": "Devam Ediyor",
+      "type": "Yarı Zamanlı",
+      "id": "df0ff9c7-d28a-48e1-bf87-49ec16a6ac3d"
+    },
+    {
+      "position": "saS",
+      "company": "asA",
+      "location": "as",
+      "status": "Mülakat",
+      "type": "Tam Zamanlı",
+      "id": "c91ccb32-97cf-4a4c-9cb6-5799df9765d6"
+    },
+    {
+      "position": "sfs",
+      "company": "sfsd",
+      "location": "sf",
+      "status": "Devam Ediyor",
+      "type": "Tam Zamanlı",
+      "id": "2e08ee6f-d446-4295-83e5-9ab5222843cb"
     }
   ]
 }

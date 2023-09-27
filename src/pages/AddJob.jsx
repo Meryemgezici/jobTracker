@@ -13,9 +13,12 @@ const AddJob = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+  
     const form= new FormData(e.target);
+    console.log(form);
 
     const newObj=Object.fromEntries(form);
+    console.log(newObj);
 
     if(!newObj.type || !newObj.status){
       toast.info("Lütfen bütün alanları doldurunuz.");
