@@ -22,7 +22,7 @@ const JobList = () => {
     <div >
       <Filter/>
 
-      <h1 className="job-count">Bulun (10) iş arasından (10) tanesini görüntülüyorsunuz.</h1>
+      <h1 className="job-count">Bulun ({state.mainJobs.length}) iş arasından ({state.jobs.length}) tanesini görüntülüyorsunuz.</h1>
 
       <section className="list-section">
         {!state.initialed ? <Loading/>:(
